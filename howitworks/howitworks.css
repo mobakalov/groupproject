@@ -1,0 +1,65 @@
+.body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.nav-link{
+    color:black;
+    margin-right: 20px;
+    margin-left:20px;
+    font-size:smaller
+}
+
+.footer {  
+    position: fixed;  
+    bottom: .5px;
+    height:260px;
+    width: 100%;  
+    background-color: rgb(66, 66, 246);  
+    color: white;  
+    text-align: center;  
+    }  
+
+.fa-solid {
+        padding-left:10px;
+        padding-right:10px;
+        
+    }
+
+.h2{
+    margin-top:30px;
+    margin-bottom:20px;
+}
+
+
+.btn-btn-primary-1{
+    background-color: #4CAF50;
+    color:white;
+    border-radius: 5px;
+    border:1px;
+    margin-right:20px;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 5px 40px;
+}
+.btn-btn-primary-2{
+    background-color: white;
+    color:rgb(66, 66, 246);
+    border-radius: 5px;
+    border:1px;
+    margin-left:20px;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 5px 25px;
+}
+.footer-start{
+    font-size:16px;
+    padding-bottom: 10px;
+}
+
+.footer-font{
+    font-size: 12px;
+    padding-top: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 100;
+
+}
