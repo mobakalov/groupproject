@@ -91,6 +91,8 @@
       color:white;
       border-color:gray;
       border-style:solid;
+      max-width:700px;
+
   }
   
   
@@ -103,6 +105,8 @@
       color:white;
       border-color:gray;
       border-style:solid;
+      max-width:700px;
+
   }
   
   .get-paid-img{
