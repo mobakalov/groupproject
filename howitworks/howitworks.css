@@ -1,65 +1,166 @@
-.body{
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-.nav-link{
-    color:black;
-    margin-right: 20px;
-    margin-left:20px;
-    font-size:smaller
-}
-
-.footer {  
-    position: fixed;  
-    bottom: .5px;
-    height:260px;
-    width: 100%;  
-    background-color: rgb(66, 66, 246);  
-    color: white;  
-    text-align: center;  
-    }  
-
-.fa-solid {
-        padding-left:10px;
-        padding-right:10px;
-        
-    }
-
-.h2{
-    margin-top:30px;
-    margin-bottom:20px;
-}
-
-
-.btn-btn-primary-1{
-    background-color: #4CAF50;
-    color:white;
-    border-radius: 5px;
-    border:1px;
-    margin-right:20px;
-    font-size: 17px;
-    font-family: 'Source Sans Pro', sans-serif;
-    padding: 5px 40px;
-}
-.btn-btn-primary-2{
-    background-color: white;
-    color:rgb(66, 66, 246);
-    border-radius: 5px;
-    border:1px;
-    margin-left:20px;
-    font-size: 17px;
-    font-family: 'Source Sans Pro', sans-serif;
-    padding: 5px 25px;
-}
-.footer-start{
-    font-size:16px;
-    padding-bottom: 10px;
-}
-
-.footer-font{
-    font-size: 12px;
-    padding-top: 20px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 100;
-
-}
+* {
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  
+  .body{
+      font-family: 'Source Sans Pro', sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+  }
+  
+  .nav-link{
+      color:black;
+      margin-right: 20px;
+      margin-left:20px;
+      font-size:smaller
+  }
+  
+  .fa-solid {
+          padding-left:10px;
+          padding-right:10px;  
+      }
+  
+  .h2{
+      margin-top:30px;
+      margin-bottom:20px;
+  }
+  
+  .grid{
+      height:500px;
+      padding-left:50px;
+  }
+  
+  
+  
+  .btn-btn-primary-3{
+      background-color: rgb(66, 66, 246);
+      color:white;
+      border-radius: 5px;
+      border:1px;
+      margin: 10px 5px 10px;
+      font-size: 17px;
+      font-family: 'Source Sans Pro', sans-serif;
+      padding: 7px 20px;
+  }
+  .btn-btn-primary-4{
+      background-color: white;
+      color:rgb(66, 66, 246);
+      border-radius: 5px;
+      border-color:rgb(66, 66, 246);
+      margin: 10px 15px 10px;
+      font-size: 17px;
+      font-family: 'Source Sans Pro', sans-serif;
+      padding: 5px 15px;
+  }
+  
+  .business-font{
+      font-size: 10px;
+      padding-top: 2px;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 100;
+  
+  }
+  
+  .how{
+      margin:auto;
+      width:40%;
+      text-align:center;
+  }
+  
+  .how-it{
+      width:350px;
+      background:white;
+      border-radius: 5px;
+  
+  }
+  
+  .how-it::after{
+      background:blue;
+  }
+  
+  .collect{
+      text-align:center;
+      background-color:rgb(66, 66, 246);
+      border-radius: 5px;
+      margin:30px 200px 30px 200px;
+      border:1px;
+      color:white;
+      border-color:gray;
+      border-style:solid;
+  }
+  
+  
+  .get-paid{
+      text-align:center;
+      background-color:rgb(66, 66, 246);
+      border-radius: 5px;
+      margin:30px 200px 70px 200px;
+      border:1px;
+      color:white;
+      border-color:gray;
+      border-style:solid;
+  }
+  
+  .get-paid-img{
+      width:350px;
+      height:300px;
+      background:white;
+      border-radius: 5px;
+  
+  }
+  
+  .get-paid-img::after{
+      background:blue;
+  }
+  
+  .btn-btn-primary-1{
+      background-color: #4CAF50;
+      color:white;
+      border:2px;
+      margin-right:20px;
+      font-size: 17px;
+      font-family: 'Source Sans Pro', sans-serif;
+      padding: 5px 40px;
+      border-radius: 5px;
+  
+  }
+  .btn-btn-primary-2{
+      background-color: white;
+      color:rgb(66, 66, 246);
+      border-radius: 5px;
+      border:1px;
+      margin-left:20px;
+      font-size: 17px;
+      font-family: 'Source Sans Pro', sans-serif;
+      padding: 5px 25px;
+  }
+  
+  .footer {  
+      position: static; 
+      bottom: 0;
+      height:200px;
+      width: 100%;  
+      background-color: rgb(66, 66, 246);  
+      color: white;  
+      text-align: center; 
+      margin-top: auto; 
+      }  
+  
+  .footer-start{
+      font-size:16px;
+      padding-bottom: 10px;
+  }
+  
+  .footer-font{
+      font-size: 12px;
+      padding-top: 20px;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 100;
+  
+  }
+  
+  
