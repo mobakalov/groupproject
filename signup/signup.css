@@ -1,32 +1,100 @@
-.container{
+main{
+    display:flex;
+}
+
+.rows{
     display: flex;
-    flex-direction: column;
+    padding-top: 130px;
+    margin-left: 80px;
+
 }
 
-header h1{
-    font-family: Arial, Helvetica, sans-serif;
+.rows2{
+    display: flex;
+    padding-top: 130px;
+    padding-left: 10px;
+}
+
+/* top sign up text */
+.fs-1{
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+/* usernamer, email, and password input boxes */
+.mb-3{
+    margin-block: 45px;
+    padding: 5px;
+    align-content: center;
+}
+
+/* sign up button */
+button{
+    margin-block: 27px;
+}
+
+.fs-6{
+    text-align: center;
+}
+
+/* or sign in with social txt */
+.signup{
+    text-align: center;
+}
+
+/* social link imgages */
+.socials{
+    display: flex;
+    gap: 60px;
     position: relative;
-    top: 40px;
-    left: 100px;
-    padding: 10px;
+    top: 70px;
+    left: 55px;
+    
 }
 
-.username{
+/* social circle border */
+.circle{
+    display: flex;
+}
+
+.entry-img{
     
+    position: relative;
+    top: 205px;
+    right: 1350px;
+}
+
+.twt{
+    position: relative;
+    left: 4px;
+    top: 5px;
+}
+
+.linked{
+    position: relative;
+    right: 3px;
+}
+
+.face{
+    position: relative;
+    right: 3px;
+    top: 3px;
+}
+
+ .user{
+    display: flex;
+    position: relative;
+    top: 41px;
 }
 
 .email{
-   
+    display: flex;
+    position: relative;
+    top: 130px;
 }
 
 .pw{
-    
-}
-
-.button{
-    
-}
-
-.text{
-    
+    display: flex;
+    position: relative;
+    top: 218px;
 }
